@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/photogallery.user/templates/.default/script.js" => "15409627332348","/bitrix/components/bitrix/photogallery.detail.list.ex/templates/.default/script.js" => "154096273375616","/bitrix/components/bitrix/iblock.vote/templates/ajax_photo/script1.js" => "15409627131449",)); ?>

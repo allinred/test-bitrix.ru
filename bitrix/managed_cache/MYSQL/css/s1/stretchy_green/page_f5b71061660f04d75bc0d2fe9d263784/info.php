@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/stretchy_green/components/bitrix/socialnetwork.group_search/.default/style.css" => "15409628771753",)); ?>

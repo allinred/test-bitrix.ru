@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/im/css/common.css" => "154096271746470","/bitrix/js/im/css/im.css" => "1540962717196327",)); ?>
