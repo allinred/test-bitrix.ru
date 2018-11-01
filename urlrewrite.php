@@ -32,14 +32,6 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/stssync/calendar/index.php',
     'SORT' => 100,
   ),
-  5 => 
-  array (
-    'CONDITION' => '#^/groups/#',
-    'RULE' => '',
-    'ID' => 'bitrix:socialnetwork_group',
-    'PATH' => '/groups/group.php',
-    'SORT' => 100,
-  ),
   6 => 
   array (
     'CONDITION' => '#^/people/#',
@@ -48,12 +40,20 @@ $arUrlRewrite=array (
     'PATH' => '/people/user.php',
     'SORT' => 100,
   ),
-  9 => 
+  5 => 
   array (
-    'CONDITION' => '#^/about/#',
+    'CONDITION' => '#^/groups/#',
     'RULE' => '',
-    'ID' => '',
-    'PATH' => '/about.php',
+    'ID' => 'bitrix:socialnetwork_group',
+    'PATH' => '/groups/group.php',
+    'SORT' => 100,
+  ),
+  7 => 
+  array (
+    'CONDITION' => '#^/forum/#',
+    'RULE' => '',
+    'ID' => 'bitrix:forum',
+    'PATH' => '/forum/index.php',
     'SORT' => 100,
   ),
   8 => 
@@ -64,12 +64,12 @@ $arUrlRewrite=array (
     'PATH' => '/photo/index.php',
     'SORT' => 100,
   ),
-  7 => 
+  9 => 
   array (
-    'CONDITION' => '#^/forum/#',
+    'CONDITION' => '#^/about/#',
     'RULE' => '',
-    'ID' => 'bitrix:forum',
-    'PATH' => '/forum/index.php',
+    'ID' => '',
+    'PATH' => '/about.php',
     'SORT' => 100,
   ),
   3 => 
